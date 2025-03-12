@@ -1,4 +1,13 @@
 def binary_search(list, item):
+    """
+    Perform a binary search on a sorted list to find the index of a specified item.
+    Args:
+        list (list): A sorted list of elements to search through.
+        item: The element to search for in the list.
+    Returns:
+        int: The index of the item if found, otherwise None.
+    """
+
     low = 0  # Pointer
     high = len(list) - 1  # Pointer
 
